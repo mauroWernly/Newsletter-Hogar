@@ -1,0 +1,115 @@
+.menu-container{
+    background-color: #f95c50 !important;
+    .menu-col{
+        padding: 10px 0px;
+        .menu-class-item{
+            a{
+                text-transform: uppercase;
+                color: #ffffff !important;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.directora-container{
+    background-color: #8bbdb1 !important;
+    h1, 
+    p{  font-family: "Arial";
+        font-size: 28px;
+        max-width: 500px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        font-weight: bold;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    a{
+        font-family: "Arial";
+        color: #ffffff;
+        text-transform: uppercase;
+        border: 1px solid #ffffff;
+        display: block;
+        max-width: 95px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 21px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+.infancia-container{
+    .img-square{
+        box-shadow: -40px 40px #dff4ee;
+        height: 100px;
+        width: 100px;
+        display: block;
+        background-color: black;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 60px;
+    }
+    h2{
+        color: #8bbdb1;
+        text-transform: uppercase;
+        font-size: 21px;
+        margin-top: 55px;
+        font-family: "Arial";
+        font-weight: bold;
+    }
+    p {
+        color: #5e3814;
+        line-height: 23px;
+        font-size: 15px;
+    }
+}
+
+.historias-container{
+    h2{
+        text-transform: uppercase;
+        color: #f95c50 !important;
+        font-family: "Arial";
+        font-size: 21px;
+        margin-top: 55px;
+        text-align: center;
+    }
+    p{
+        color: #5e3814;
+        line-height: 23px;
+        font-size: 15px;
+    }
+    h5{
+        color: #f95c50;
+        font-size: 15px;
+    }
+    a{
+        font-family: "Arial";
+        color: #f95c50;
+        text-transform: uppercase;
+        border: 1px solid #f95c50;
+        display: block;
+        max-width: 300px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 21px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
