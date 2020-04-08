@@ -1,4 +1,16 @@
+.logo-container{
+    img{
+        max-width: 90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .menu-container{
+    margin-bottom: -1px !important;
+    z-index: 30;
+    position: relative;
     background-color: #f95c50 !important;
     .menu-col{
         padding: 10px 0px;
@@ -12,7 +24,16 @@
     }
 }
 
+.hero-row{
+    th{
+        padding: 0px !important;
+    }
+}
+
 .directora-container{
+    margin-top: -1px !important;
+    z-index: 30;
+    position: relative;
     background-color: #8bbdb1 !important;
     h1, 
     p{  font-family: "Arial";
@@ -77,13 +98,26 @@
     }
 }
 
+.heart-spacer{
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .historias-container{
+    background-image: url(../assets/img/grey-heart-shape.svg) !important;
+    background-size: 400px auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
     h2{
         text-transform: uppercase;
         color: #f95c50 !important;
         font-family: "Arial";
         font-size: 21px;
         margin-top: 55px;
+        margin-bottom: 55px;
         text-align: center;
     }
     p{
