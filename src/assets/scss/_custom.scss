@@ -39,9 +39,9 @@
         border: 1px solid #ffffff;
         display: block;
         max-width: 95px;
-        padding: 10px;
+        padding: 15px 20px;
         text-align: center;
-        border-radius: 21px;
+        border-radius: 35px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
@@ -102,13 +102,56 @@
         border: 1px solid #f95c50;
         display: block;
         max-width: 300px;
-        padding: 10px;
+        padding: 15px 20px;
         text-align: center;
-        border-radius: 21px;
+        border-radius: 35px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
         margin-bottom: 60px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+.sobre-ellos-container{
+    background-color: #8bbdb1 !important;
+    height: 400px;
+    .sobre-ellos{
+        background-color: #ffffff7a;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    h1,
+    p{
+        text-align: center;
+        color: #5e3814;
+        font-family: "Arial";
+        line-height: 23px;
+    }
+    p{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    a{
+        font-family: "Arial";
+        color: #ffffff;
+        background-color: #f95c50;
+        text-transform: uppercase;
+        border: 1px solid #f95c50;
+        display: block;
+        max-width: 95px;
+        padding: 15px 20px;
+        text-align: center;
+        border-radius: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
         font-weight: bold;
         font-size: 15px;
     }
