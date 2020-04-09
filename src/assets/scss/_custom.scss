@@ -27,6 +27,9 @@
 .hero-row{
     th{
         padding: 0px !important;
+        @media(max-width: 768px){
+            padding: 0px !important;
+        }
     }
 }
 
@@ -78,10 +81,13 @@
         height: 100px;
         width: 100px;
         display: block;
-        background-color: black;
+        background-color: #ffffff;
         margin-left: auto;
         margin-right: 20px;
         margin-top: 60px;
+        @media(max-width: 768px){
+            margin-right: auto;
+        }
     }
     h2{
         color: #8bbdb1;
@@ -90,11 +96,21 @@
         margin-top: 55px;
         font-family: "Arial";
         font-weight: bold;
+        @media(max-width: 768px){
+            text-align: center;
+        }
     }
     p {
         color: #5e3814;
         line-height: 23px;
         font-size: 15px;
+        @media(max-width: 768px){
+            text-align: center;
+        }
+    }
+
+    .last-paragraph{
+        margin-bottom: 55px;
     }
 }
 
@@ -110,7 +126,7 @@
     background-image: url(../assets/img/grey-heart-shape.svg) !important;
     background-size: 400px auto !important;
     background-repeat: no-repeat !important;
-    background-position: center center !important;
+    background-position: 40% 50% !important;
     h2{
         text-transform: uppercase;
         color: #f95c50 !important;
@@ -124,10 +140,16 @@
         color: #5e3814;
         line-height: 23px;
         font-size: 15px;
+        @media(max-width: 768px){
+            text-align: center;
+        }
     }
     h5{
         color: #f95c50;
         font-size: 15px;
+        @media(max-width: 768px){
+            text-align: center;
+        }
     }
     a{
         font-family: "Arial";
@@ -146,10 +168,19 @@
         font-weight: bold;
         font-size: 15px;
     }
+    img{
+        @media(max-width: 768px){
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
 }
 
 .sobre-ellos-container{
-    background-color: #8bbdb1 !important;
+    background-image: url(../assets/img/about-the-kids.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
     height: 400px;
     .sobre-ellos{
         background-color: #ffffff7a;
@@ -188,5 +219,174 @@
         margin-top: 20px;
         font-weight: bold;
         font-size: 15px;
+    }
+}
+.video-container{
+    .video-column{
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+    .video-info-card{
+        background-color: #f95b5065 !important;
+        padding: 20px;
+        h2,
+        p{
+            text-align: center;
+            color: #f95c50;
+            font-family: "Arial";
+            line-height: 23px;
+        }
+        p{
+            font-size: 15px;
+            margin-top: 25px;
+            color: #5e3814;
+            max-width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2{
+            font-size: 21px;
+            font-weight: bold;
+        }
+        a{
+            font-family: "Arial";
+            color: #ffffff;
+            background-color: #f95c50;
+            text-transform: uppercase;
+            border: 1px solid #f95c50;
+            display: block;
+            max-width: 95px;
+            padding: 15px 20px;
+            text-align: center;
+            border-radius: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+}
+.thanks-container{
+    background-image: url(../assets/img/green-bg.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    img{
+        max-width: 130px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .thanks-card{
+        background-color: rgba(45, 45, 45, 0.2);
+        padding: 20px;
+        margin-top: 50px;
+        @media(max-width: 768px){
+            padding: 35px 20px;
+        }
+        h2{
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 21px;
+            font-family: "Arial";
+            font-weight: bold;
+            @media(max-width: 768px){
+                text-align: center;
+            }
+        }
+        p{
+            text-align: left;
+            font-size: 15px;
+            color: #ffffff;
+            font-family: "Arial";
+            line-height: 23px;
+        }
+    }
+    h4{
+        font-family: "Arial";
+        color: #ffffff;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    a{
+        display: block;
+        max-width: 100px;
+        text-align: center;
+        margin-left: auto;
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+}
+
+.cold-container{
+    background-image: url(../assets/img/blue-bg.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    position: relative !important;
+    z-index: 30;
+    margin-top: -1px !important;
+    .cold-card{
+        background-color: rgba(45, 45, 45, 0.2);
+        padding: 20px;
+        margin-top: 50px;
+        @media(max-width: 768px){
+            padding: 35px 20px;
+        }
+        h2{
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 21px;
+            font-family: "Arial";
+            font-weight: bold;
+        }
+        h5{
+            text-align: left;
+            font-size: 14px;
+            color: #ffffff;
+            font-family: "Arial";
+            line-height: 23px;
+        }
+        ul {
+            padding: 0px !important;
+            li{
+                text-decoration: none;
+                list-style: none;
+                color: #ffffff;
+                font-weight: bold;
+            }
+        }
+
+        a{
+            font-family: "Arial";
+            color: #ffffff;
+            background-color: #f95c50;
+            text-transform: uppercase;
+            border: 1px solid #f95c50;
+            display: block;
+            max-width: 200px;
+            padding: 15px 20px;
+            text-align: center;
+            border-radius: 35px;
+            margin-left: 0;
+            margin-right: auto;
+            margin-top: 35px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+    img{
+        max-width: 130px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
     }
 }
