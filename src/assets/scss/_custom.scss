@@ -21,6 +21,14 @@
                 font-size: 14px;
             }
         }
+        .first-menu-class-item::after,
+        .second-menu-class-item::after{
+            content: ' |';
+            text-transform: uppercase;
+            color: #ffffff !important;
+            font-size: 14px;
+            margin-left: 5px;
+        }
     }
 }
 
@@ -388,5 +396,117 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 80px;
+    }
+}
+
+.how-to-help{
+    h1{
+        text-transform: uppercase;
+        color: #5e3814 !important;
+        font-family: "Arial";
+        font-size: 21px;
+        margin-top: 55px;
+        margin-bottom: 55px;
+        text-align: center;
+    }
+    p{
+        color: #5e3814;
+        line-height: 23px;
+        font-size: 15px;
+        font-family: "Arial";
+        text-align: center;
+    }
+    img{
+        max-height: 40px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    a{
+        text-transform: uppercase;
+        font-family: "Arial";
+        color: #ffffff;
+        display: block;
+        max-width: 200px;
+        padding: 15px 20px;
+        text-align: center;
+        border-radius: 35px;
+        margin-left: 0;
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 15px;
+        height: 35px;
+        margin-top: 35px;
+        margin-bottom: 60px !important;
+    }
+    a.donate-now{
+        background-color: #f95c50;
+        border: 1px solid #f95c50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    a.increase-donation{
+        background-color: #fca93b;
+        border: 1px solid #fca93b;
+    }
+}
+
+.footer-container{
+    .footer-gray-block{
+        background-color: #474747;
+    }
+    h1{
+        text-transform: uppercase;
+        color: #ffffff !important;
+        font-family: "Arial";
+        font-size: 16px;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        a{
+            margin: 0px 20px;
+        }
+        img{
+            max-height: 30px !important;
+        }
+    }
+    .footer-contact{
+        padding-top: 15px;
+        background-color: #474747 !important;
+        padding: 0 !important;
+        .footer-mail{
+            color: #f95c50 !important;
+        }
+        .footer-tel{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        a{
+            color: #ffffff !important;
+            display: block;
+            text-align: center;
+        }
+    }
+}
+.closing-footer{
+    background-color: #393939;
+    padding: 0 !important;
+    a{
+        color: #ffffff !important;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 10px;
     }
 }
