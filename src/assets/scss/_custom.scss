@@ -4,6 +4,8 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -20,14 +22,6 @@
                 color: #ffffff !important;
                 font-size: 14px;
             }
-        }
-        .first-menu-class-item::after,
-        .second-menu-class-item::after{
-            content: ' |';
-            text-transform: uppercase;
-            color: #ffffff !important;
-            font-size: 14px;
-            margin-left: 5px;
         }
     }
 }
@@ -483,7 +477,7 @@
         padding-top: 15px;
         background-color: #474747 !important;
         padding: 0 !important;
-        .footer-mail{
+        a.footer-mail{
             color: #f95c50 !important;
         }
         .footer-tel{
