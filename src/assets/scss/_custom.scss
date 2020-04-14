@@ -36,11 +36,14 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
             a{
                 text-transform: uppercase;
                 color: #ffffff !important;
-                font-size: 14px;
+                font-size: 15px;
 
                 > span {
                     display: inline-block;
                     padding: 0 15px;
+                }
+                @media(max-width: 480px){
+                    font-size: 11px !important;
                 }
             }
         }
@@ -63,7 +66,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
     background-color: #8bbdb1 !important;
     h1, 
     p{  font-family: "Arial", sans-serif;
-        font-size: 28px;
+        font-size: 30px;
         max-width: 500px;
         text-align: center;
         color: #ffffff;
@@ -75,7 +78,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         font-weight: bold;
     }
     p{
-        margin-top: 20px;
+        margin-top: 14px;
         font-size: 15px;
         font-weight: 300;
     }
@@ -117,7 +120,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
     h2{
         color: #8bbdb1;
         text-transform: uppercase;
-        font-size: 21px;
+        font-size: 18px;
         margin-top: 55px;
         font-family: "Arial", sans-serif;
         font-weight: bold;
@@ -128,7 +131,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
     p {
         color: #5e3814;
         line-height: 23px;
-        font-size: 15px;
+        font-size: 14px;
         @media(max-width: 768px){
             text-align: center;
         }
@@ -157,7 +160,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         text-transform: uppercase;
         color: #f95c50 !important;
         font-family: "Arial", sans-serif;
-        font-size: 21px;
+        font-size: 18px;
         margin-top: 55px;
         margin-bottom: 55px;
         text-align: center;
@@ -165,14 +168,14 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
     p{
         color: #5e3814;
         line-height: 23px;
-        font-size: 15px;
+        font-size: 14px;
         @media(max-width: 768px){
             text-align: center;
         }
     }
     h5{
         color: #f95c50;
-        font-size: 15px;
+        font-size: 14px;
         @media(max-width: 768px){
             text-align: center;
         }
@@ -325,7 +328,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         h2{
             color: #ffffff;
             text-transform: uppercase;
-            font-size: 21px;
+            font-size: 24px;
             font-family: "Arial", sans-serif;
             font-weight: bold;
             @media(max-width: 768px){
@@ -334,7 +337,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         }
         p{
             text-align: left;
-            font-size: 15px;
+            font-size: 14px;
             color: #ffffff;
             font-family: "Arial", sans-serif;
             line-height: 23px;
@@ -378,7 +381,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         h2{
             color: #ffffff;
             text-transform: uppercase;
-            font-size: 21px;
+            font-size: 24px;
             font-family: "Arial", sans-serif;
             font-weight: bold;
         }
@@ -392,6 +395,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         ul {
             padding: 0px !important;
             li{
+                font-size: 18px;
                 text-decoration: none;
                 list-style: none;
                 color: #ffffff;
@@ -447,7 +451,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
     p{
         color: #5e3814;
         line-height: 23px;
-        font-size: 15px;
+        font-size: 14px;
         font-family: "Arial", sans-serif;
         text-align: center;
     }
@@ -497,6 +501,10 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
 }
 
 .footer-container{
+    @media(max-width: 768px){
+        background-color: #474747 !important;
+    }
+    background-color: #474747;
     .footer-gray-block{
         background-color: #474747;
     }
@@ -504,7 +512,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         text-transform: uppercase;
         color: #ffffff !important;
         font-family: "Arial", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 55px;
         margin-bottom: 30px;
         text-align: center;
@@ -517,8 +525,11 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
             margin: 0px 20px;
         }
         img{
-            max-height: 30px !important;
+            max-height: 30px;
             display: inline-block;
+            @media(max-width: 768px){
+                max-height: 20px !important;
+            }
         }
     }
     .footer-contact{
