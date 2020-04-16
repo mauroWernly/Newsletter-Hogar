@@ -184,6 +184,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         text-transform: uppercase;
         color: #f95c50 !important;
         font-family: "Arial", sans-serif;
+        font-weight: bold;
         font-size: 18px;
         margin-top: 55px;
         margin-bottom: 55px;
@@ -486,6 +487,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         font-weight: bold;
         @media(max-width: 480px){
             margin-top: 35px !important;
+            margin-bottom: 5px !important;
         }
     }
     p{
@@ -520,7 +522,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-bottom: 60px;
         @media(max-width: 480px){
             margin-bottom: 20px !important;
-            margin-top: 20px !important;
+            margin-top: 0px !important;
         }
     }
 
@@ -535,11 +537,7 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         line-height: 35px;
         display: inline-block;
         justify-content: center;
-        align-items: center;
-        @media(max-width: 480px){
-            margin-bottom: 40px !important;
-        }
-        }
+    }
     a.increase-donation{
         background-color: #fca93b;
         border: 1px solid #fca93b;
