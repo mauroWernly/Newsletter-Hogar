@@ -2,6 +2,16 @@ table.container {
     width: 600px;
 }
 
+@media(max-width: 480px){
+    .d-none{
+        display: none !important;
+    }
+    .padding-none{
+        padding: 0px !important;
+    }
+}
+
+
 .logo-container{
     img{
         width: 75px;
@@ -123,6 +133,9 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-right: 20px;
         margin-top: 60px;
         max-width: 200px;
+        @media (max-width: 480px){
+            margin-top: 30px !important;
+        }
         img{
             max-width: 200px;
         }
@@ -142,7 +155,8 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         color: #5e3814;
         line-height: 23px;
         font-size: 14px;
-        @media(max-width: 768px){
+        @media (max-width: 480px){
+            margin-bottom: 20px !important;
             text-align: center;
         }
     }
@@ -174,6 +188,10 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-top: 55px;
         margin-bottom: 55px;
         text-align: center;
+        @media (max-width: 480px){
+            margin-top: 25px !important;
+            margin-bottom: 15px !important;
+        }
     }
     p{
         color: #5e3814;
@@ -206,6 +224,9 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-bottom: 60px;
         font-weight: bold;
         font-size: 15px;
+        @media(max-width: 480px){
+            margin-bottom: 30px !important;
+        }
     }
     img{
         max-width: 150px;
@@ -227,6 +248,10 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-top: 50px;
         margin-bottom: 50px;
         padding: 30px 20px;
+        @media(max-width: 480px){
+            margin-top: 30px !important;
+            margin-bottom: 30px !important;
+        }
 
         &-main {
             padding-top: 0;
@@ -333,8 +358,9 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         background-color: rgba(45, 45, 45, 0.2);
         padding: 20px;
         margin-top: 50px;
-        @media(max-width: 768px){
-            padding: 35px 20px;
+        @media(max-width: 480px){
+            padding: 35px 20px !important;
+            margin-top: 20px !important;
         }
         h2{
             color: #ffffff;
@@ -458,6 +484,9 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-bottom: 25px;
         text-align: center;
         font-weight: bold;
+        @media(max-width: 480px){
+            margin-top: 35px !important;
+        }
     }
     p{
         color: #5e3814;
@@ -488,7 +517,11 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         font-size: 15px;
         height: 35px;
         margin-top: 35px;
-        margin-bottom: 60px !important;
+        margin-bottom: 60px;
+        @media(max-width: 480px){
+            margin-bottom: 20px !important;
+            margin-top: 20px !important;
+        }
     }
 
     .donar-info,
@@ -503,6 +536,9 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         display: inline-block;
         justify-content: center;
         align-items: center;
+        @media(max-width: 480px){
+            margin-bottom: 40px !important;
+        }
         }
     a.increase-donation{
         background-color: #fca93b;
@@ -527,6 +563,9 @@ $sizes: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50;
         margin-top: 55px;
         margin-bottom: 30px;
         text-align: center;
+        @media(max-width: 480px){
+            margin-top: 30px !important;
+        }
     }
     .footer-social-media{
         display: block;
